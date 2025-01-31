@@ -32,7 +32,7 @@ href={% static 'assets/favicon.ico' %} />
 
     
     <!-- Custom styles for this template -->
-    <link href={% static "css/signin.css" %} rel="stylesheet">
+    <link href={% static 'css/signin.css'%} rel="stylesheet"  />
   </head>
   <body class="text-center">
     
@@ -43,7 +43,7 @@ href={% static 'assets/favicon.ico' %} />
   <form method="post">
     {% csrf_token %}
     <img class="mb-4"
-    src={% static "img/bootstrap-logo.svg" %}
+    src={% static "assets/img/bootstrap-logo.svg" %}
     alt="" width="72"
     height="57">
     <h1 class="h3 mb-3 fw-normal">Please sign in </h1>
